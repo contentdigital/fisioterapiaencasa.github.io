@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ---------------------------------------section_header----------------------------- */
+
+.section_header{
+    background-color: #e6eef2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_header{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_logo{
+    padding: 20px 0px 20px 0px;
+}
+
+.imagen_logo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+}
+
+.texto1_header{
+    color: #005058;
+    font-size: 39px;
+    line-height: 42px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.texto2_header{
+    color: #00818d;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.enlace_boton_fisio_empleo{
+    text-decoration: none;
+}
+
+.cont_texto_boton_fisio_empleo{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ff5956;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E6EEF2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+}
+
+.texto_boton_fisio_empleo{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.imagen_header{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0px 30px 0px;
+}
+
+/* ---------------------------------------section1----------------------------- */
+
+.section1{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.container_section1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto1_section1{
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 40px 0px 40px 0px;
+}
+
+.contenedor_testimonio{
+    background-color: #e6eef2;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.imagen_testimonio{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px 0px 20px 0px;
+}
+
+.texto2_section1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+    padding: 20px;
+}
+.nombre_testimonio{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #333333;
+    padding: 0px 20px 0px 20px;
+}
+.cargo_testimonio{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #333333;
+    padding: 0px 20px 30px 20px;
+    
+}
+
+/* ---------------------------------------section2----------------------------- */
+.section2{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container_section2{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo_section2{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.texto1_section2{
+    text-align: center;
+    color: #009aa8;
+    font-size: 25px;
+    font-weight: 700; 
+}
+
+.contenedor_parrafo_section2{
+    padding: 20px;
+}
+
+.titulo_parrafo_section2{
+    color: #333333;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.parrafo_section2{
+    color: #333333;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400; 
+}
+
+/* ---------------------------------------section3----------------------------- */
+.section3{
+    background-color: #e6eef2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.container_section3{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen_section3{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.texto1_section3{
+    text-align: center;
+    color: #005058;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+}
+.lista{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 7px;
+}
+
+/* ---------------------------------------section4----------------------------- */
+
+.section4{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px 30px 0px;
+}
+
+.container_section4{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.contenedor_texto1_section4{
+    margin: 0 auto;
+    background-color: #009aa8;
+    width: 80%;
+    padding: 10px;
+}
+
+.texto1_section4{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.mapa_fisio_en_casa{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0px 20px 0px;
+}
+
+.texto2_section4{
+    text-align: center;
+    color: #333333;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.parrafo_section4{
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 20px 0px 20px 0px;
+}
+
+/* ---------------------------------------section5----------------------------- */
+.section5{
+    background-color: #E6EEF2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px;
+}
+
+.container_section5{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto1_section5{
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+/* ---------------------------------------section6----------------------------- */
+
+.section6{
+    background-color: #012f85;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_section6{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen_logo-section6{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0px 20px 0px;
+}
+
+.texto1_section6{
+    text-align: center;
+    color: #f94848;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-shadow: 0px 0.5px 0.5px #000;
+}
+
+.texto2_section6{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.texto3_section6{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+/* ---------------------------------------Btn-Wp----------------------------- */
+
+.container_botonwp_empleofisio{
+    background-color: #24CC63;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 15px;
+    transition: ease 0.3s;
+    animation: efectoBotonW 1.2s infinite;
+}
+
+.container_botonwp_empleofisio:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.botonwp_empleofisio{
+    color: #fff;
+    font-size: 40px;
+    transition: ease 1s;
+}
+
+
+@keyframes efectoBotonW{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+
+    }
+}
+
+/* ---------------------------------------MediaQuerys----------------------------- */
+
+@media(min-width: 700px){
+
+    .imagen_header{
+        width: 50%;
+    }
+
+    .mapa_fisio_en_casa{
+        width: 40%;
+    }
+
+    .imagen_logo-section6{
+        width: 40%;
+    }
+}
